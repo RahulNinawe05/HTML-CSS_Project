@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BDE7FB;
+
+}
+
+.nav {
+    background-color: #b0e1f9;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.text ul li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.text ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: #BDE7FB;
+}
+
+.box {
+    align-items: center;
+    height: 288px;
+    background-color: white;
+    margin: 63px 170px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+.box {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    font-size: 40px;
+    padding: 34px;
+    font-weight: bold;
+}
+
+.details {
+    font-size: 17px;
+    font-weight: 400px;
+    opacity: 0.5;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    /* इनपुट बॉक्स की चौड़ाई */
+    border: 2px solid #000;
+    border-radius: 25px;
+    /* गोल कोनों के लिए */
+    padding: 5px 10px;
+    margin: 34px;
+}
+
+.search-container input {
+    flex: 1;
+    /* इनपुट को पूरा स्पेस देने के लिए */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.search-container svg {
+    margin-right: 33px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: #000;
+}
+
+.Copyrighted {
+    font-size: 23px;
+}
+
+
+
+
+.main-part {
+    font-family: Arial, sans-serif;
+    background-color: #f8fbff;
+    text-align: center;
+    padding: 40px;
+}
+
+.box2 {
+    padding: 40px;
+    margin: 0 170px;
+    text-align: center;
+    color: #555;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.grid-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    background: #e2f0ff;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.grid-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.grid-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.footer h2 {
+    margin: 37px;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(22, 28, 45);
+}
+
+.footer li {
+    text-align: center;
+    margin: 20px 200px;
+    list-style: none;
+    color: #555;
+}
+
+.footer-container h2 {
+    margin: 37px;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(22, 28, 45);
+}
+
+.footer-container li {
+    font-family:  Helvetica, Arial, sans-serif;
+    list-style-type: decimal;
+    text-align: start;
+    margin: 25px 0 0 124px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(22, 28, 45);
+    line-height: 26px;
+}
+
+.footer-container2 img {
+    margin-top: 50px;
+}
+
+.footer-container2 h2 {
+    margin-top: 37px;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 69px;
+}
+
+.end-item li {
+    font-size: 400;
+    font-size: 17px;
+    color: rgb(109, 124, 144);
+    margin-top: 20px;
+    list-style: none;
+}

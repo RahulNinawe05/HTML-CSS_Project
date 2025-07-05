@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pappins', sans-serif;
+}
+body {
+    background: #262a2f;
+}
+.contaner {
+    width: 100%;
+    max-width: 50%;
+    max-height: 34px;
+    height: 100%;
+    padding: 34px;
+    margin: 400px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
