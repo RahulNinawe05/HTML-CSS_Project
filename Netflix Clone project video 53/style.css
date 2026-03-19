@@ -6,6 +6,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 .main {
     background-image: url(assits/imges/bg.jpg);
     background-position: center center;
@@ -14,6 +15,7 @@
     height: 70vh;
     position: relative;
 }
+
 
 .main .box {
     height: 70vh;
